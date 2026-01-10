@@ -1,0 +1,100 @@
+@media screen and (max-width: 720px){
+    .logo{
+        font-size: 20px;
+    }
+    nav,.logout{
+        display: none;
+    }
+    .menu-bar{
+        display: inline;
+    }
+
+    .hero-intro p{
+        font-size: 14px;
+    }
+    .hero-intro h1{
+        font-size: 32px;
+    }
+    .hero-description{
+        font-size: 12px;
+    }
+    .buttons button{
+        font-size: 12px;        
+    }
+
+
+
+    .about-data{
+        gap: 60px;
+    }
+    .about-card{
+        flex-direction: column; 
+    }
+    .about-card.even{
+        flex-direction: column;
+    }
+    .about-card-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 650px;
+        width: 100%;
+        /* padding-top: 10px;
+        padding-bottom: 10px; */
+        gap: 24px;
+    }
+    .about-card-title{
+        font-size: 30px;
+    }
+    .about-card-description{
+        font-size: 12px;
+    }
+    .read-more-button{
+        font-size: 12px;
+    }
+
+
+
+
+    .stats-screen .container{
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 20px;
+        /* justify-content: space-evenly;
+        flex-wrap: wrap; */
+    }
+    .stats-screen .container .value{
+        font-size: 28px;        
+    }
+    .stats-screen .container .stat-title{
+        font-size: 12px;
+    }
+    .head-data{
+        font-size: 30px;
+        padding-bottom: 64px;
+    }
+    .rooms-card-container{
+        row-gap: 48px;
+    }
+
+
+    .reviews-card-container{
+        row-gap: 48px;
+    }
+    .review-card{
+        padding: 0px 24px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
