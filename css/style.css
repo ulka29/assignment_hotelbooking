@@ -377,7 +377,7 @@ footer .container .all-quick-links{
     
 }
 footer .container .quick-links{
-    width: 110px;
+    width: 115px;
     display: flex;
     flex-direction: column;
     gap: 24px;
