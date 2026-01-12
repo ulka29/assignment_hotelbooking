@@ -30,6 +30,11 @@ ol,ul{
     margin-right: auto;
     padding: 15px;
 }
+.about-us,.room-screen, .service-screen, .review-screen, footer{
+    /* paddig of 15-15 */
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 
 .home-screen{
     min-height: 100vh;
@@ -49,7 +54,7 @@ ol,ul{
     flex-direction: column;
     justify-content: space-between;
     
-    /* gap: 284px; */
+    gap: 284px;
 }
 
 header{
@@ -179,6 +184,7 @@ header{
     flex-direction: row-reverse;
 }
 .about-card-image img{
+    /* min(parent width,492) */
     max-width: 492px;
     width: 100%;
     padding: 2vh;
@@ -255,7 +261,9 @@ header{
     color: #424242;
     padding-bottom: 100px;
 }
-
+.room-screen{
+    background-color: #F8F9FB;
+}
 .rooms-card-container{
     display: flex;
     justify-content: space-evenly;
